@@ -1,0 +1,24 @@
+.container img {
+    width: 200px;
+    height: 200px;
+}
+
+#de {
+    background-color: blue;
+}
+
+#as {
+    background-color: green;
+}
+
+@media (max-width: 480px) {
+    .container img {
+        display: none;
+    }
+}
+
+@media (max-width: 576px) {
+    .container img {
+        display: none;
+    }
+}
